@@ -20,5 +20,6 @@ Automated cron job runs daily to list active AWS resources and sends alerts to S
 <br>
 *Example: Server in IST (cronjob @6:00PM)*
 <br>
-```In crontab:
+In crontab:
+```shell
 0 18 * * * /path/to/aws_resource_list.sh <region> <service> | /path/to/send_to_slack.sh
