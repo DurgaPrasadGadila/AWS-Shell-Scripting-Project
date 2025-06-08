@@ -4,6 +4,7 @@
 **Description:**
 <br>
 - This shell script takes two user inputs, `region` and `service_name`, and outputs a list of active resources belonging to the specified AWS service in the specified region. It uses the AWS CLI to fetch and filter resources, and displays their IDs, names, and types.
+
 <br>
 *Usage: ./aws_resource_list.sh  <aws_region> <aws_service>*
 <br>
@@ -16,6 +17,7 @@
 ---
 **Additionally you can add cronjob like:**
 - Automated cron job runs daily to list active AWS resources and sends alerts to Slack channel, enabling real-time visibility. This helps in cost optimization by identifying unused or underutilized services early.
+
 <br>
 *Example server in IST (cronjob @6:00PM):*
 <br>
