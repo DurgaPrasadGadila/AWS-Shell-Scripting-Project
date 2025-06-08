@@ -18,7 +18,7 @@
 <br>
 Automated cron job runs daily to list active AWS resources and sends alerts to Slack channel, enabling real-time visibility. This helps in cost optimization by identifying unused or underutilized services early.
 <br>
-*Example server in IST (cronjob @6:00PM):*
+*Example: Server in IST (cronjob @6:00PM)*
 <br>
 ```In crontab:
 0 18 * * * /path/to/aws_resource_list.sh <region> <service> | /path/to/send_to_slack.sh
