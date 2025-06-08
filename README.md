@@ -1,9 +1,9 @@
 # AWS-Shell-Scripting-Project
-Shell script to automate the process of listing all the active resources in an AWS account.
+**Shell script to automate the process of listing all the active resources in an AWS account.**
 ---
 **Description:**
 <br>
-This shell script takes two user inputs, `region` and `service_name`, and outputs a list of active resources belonging to the specified AWS service in the specified region. It uses the AWS CLI to fetch and filter resources, and displays their IDs, names, and types.
+**This shell script takes two user inputs, `region` and `service_name`, and outputs a list of active resources belonging to the specified AWS service in the specified region. It uses the AWS CLI to fetch and filter resources, and displays their IDs, names, and types.**
 <br>
 *Usage: ./aws_resource_list.sh  <aws_region> <aws_service>*
 <br>
